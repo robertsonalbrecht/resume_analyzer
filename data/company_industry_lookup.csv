@@ -1,0 +1,44 @@
+company_name,industry_tag,source
+McKinsey & Company,Business Services,manual
+Goldman Sachs,Financial Services,manual
+JPMorgan Chase,Financial Services,manual
+Morgan Stanley,Financial Services,manual
+BlackRock,Financial Services,manual
+Deloitte,Business Services,manual
+PwC,Business Services,manual
+KPMG,Business Services,manual
+EY,Business Services,manual
+Accenture,Business Services,manual
+Boston Consulting Group,Business Services,manual
+Bain & Company,Business Services,manual
+Google,Technology/Software,manual
+Apple,Technology/Software,manual
+Microsoft,Technology/Software,manual
+Amazon,Technology/Software,manual
+Meta,Technology/Software,manual
+Salesforce,Technology/Software,manual
+Oracle,Technology/Software,manual
+SAP,Technology/Software,manual
+IBM,Technology/Software,manual
+Cisco,Technology/Software,manual
+Intel,Technology/Software,manual
+NVIDIA,Technology/Software,manual
+Tesla,Industrials/Manufacturing,manual
+Ford,Industrials/Manufacturing,manual
+General Motors,Industrials/Manufacturing,manual
+Boeing,Industrials/Manufacturing,manual
+General Electric,Industrials/Manufacturing,manual
+Johnson & Johnson,Healthcare/Life Sciences,manual
+Pfizer,Healthcare/Life Sciences,manual
+UnitedHealth Group,Healthcare/Life Sciences,manual
+Anthem,Healthcare/Life Sciences,manual
+CVS Health,Healthcare/Life Sciences,manual
+Walmart,Retail/Consumer,manual
+Target,Retail/Consumer,manual
+Procter & Gamble,Retail/Consumer,manual
+Coca-Cola,Retail/Consumer,manual
+PepsiCo,Retail/Consumer,manual
+ExxonMobil,Energy,manual
+Chevron,Energy,manual
+Shell,Energy,manual
+BP,Energy,manual
