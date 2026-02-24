@@ -3,6 +3,9 @@ KKR,Mega,Generalist
 Blackstone,Mega,Generalist
 Apollo Global Management,Mega,Generalist
 Carlyle Group,Mega,Generalist
+Brookfield Asset Management,Mega,Real Assets
+Goldman Sachs Asset Management,Mega,Generalist
+DigitalBridge Group,Mega,Technology
 Warburg Pincus,Large,Generalist
 TPG Capital,Large,Generalist
 Bain Capital,Large,Generalist
@@ -12,34 +15,628 @@ Insight Partners,Large,Growth
 Silver Lake,Large,Technology
 Vista Equity Partners,Large,Technology
 Thoma Bravo,Large,Technology
-Francisco Partners,Mid,Technology
-Symphony Technology Group,Mid,Technology
+Hg,Large,Technology
+Veritas Capital,Large,Technology
+KPS Capital Partners,Large,Industrials
+H.I.G. Capital,Large,Generalist
+L Catterton,Large,Consumer
+Thomas H. Lee Partners,Large,Generalist
+TSG Consumer Partners,Large,Consumer
+Morgan Stanley Capital Partners,Large,Generalist
 Permira,Large,Generalist
 CVC Capital Partners,Large,Generalist
 EQT Partners,Large,Generalist
-BC Partners,Mid,Generalist
-Cinven,Mid,Generalist
 Apax Partners,Large,Generalist
-PAI Partners,Mid,Generalist
 Ardian,Large,Generalist
-Bridgepoint,Mid,Generalist
 HarbourVest Partners,Large,Fund of Funds
 Partners Group,Large,Generalist
 Neuberger Berman,Large,Generalist
 Ares Management,Large,Credit/Generalist
 Oaktree Capital,Large,Credit
 Cerberus Capital Management,Large,Generalist
-American Securities,Mid,Generalist
-Audax Private Equity,Mid,Generalist
-Berkshire Partners,Mid,Generalist
-GTCR,Mid,Generalist
+Centerbridge Partners,Large,Credit/Generalist
 Hellman & Friedman,Large,Generalist
+OMERS Private Equity,Large,Generalist
+Bessemer Venture Partners,Large,Growth
+Andreessen Horowitz,Large,Growth
+Clayton Dubilier & Rice,Large,Generalist
+Abry Partners,Large,Generalist
+Adams Street Partners,Large,Fund of Funds
+Alpha Wave Global,Large,Technology
+Altaris,Large,Healthcare
+American Industrial Partners,Large,Industrials
+AMG Wealth,Large,Generalist
+Arlington Capital Partners,Large,Technology
+Arctos Partners,Large,Consumer
+Atlas Holdings,Large,Industrials
+Audax Private Equity,Large,Generalist
+Avenue Capital Group,Large,Credit
+B. Riley Financial,Large,Financial Services
+Bayside Capital,Large,Credit
+Berkshire Partners,Large,Generalist
+Blackstone Life Sciences,Large,Healthcare
+Brandywine Managers,Large,Fund of Funds
+Brighton Jones Investment Partners,Large,Generalist
+Brown Brothers Harriman Capital Partners,Large,Fund of Funds
+Cercano Management,Large,Generalist
+CF Private Equity,Large,Fund of Funds
+Charlesbank Capital Partners,Large,Generalist
+Clearlake Capital Group,Large,Technology
+Coatue Management,Large,Technology
+Comvest Private Equity,Large,Credit
+Dragoneer Investment Group,Large,Technology
+Eldridge Industries,Large,Generalist
+EnCap Investments,Large,Energy
+Energy Capital Partners,Large,Energy
+Great Hill Partners,Large,Technology
+3G Capital,Large,Consumer
+BC Partners,Mid,Generalist
+Cinven,Mid,Generalist
+PAI Partners,Mid,Generalist
+Bridgepoint,Mid,Generalist
+Francisco Partners,Mid,Technology
+Symphony Technology Group,Mid,Technology
+STG,Mid,Technology
+Accel-KKR,Mid,Technology
+Alpine Investors,Mid,Technology
+GI Partners,Mid,Technology
+Serent Capital,Mid,Technology
+Siris Capital Group,Mid,Technology
+Bregal Sagemount,Mid,Technology
+American Securities,Mid,Generalist
+GTCR,Mid,Generalist
 Leonard Green & Partners,Mid,Generalist
-Lone Star Funds,Large,Real Estate/Credit
 Madison Dearborn Partners,Mid,Generalist
 New Mountain Capital,Mid,Generalist
 Oak Hill Capital,Mid,Generalist
 Platinum Equity,Mid,Generalist
-Roark Capital Group,Mid,Consumer
 Sun Capital Partners,Mid,Generalist
+Kelso & Company,Mid,Generalist
+Harvest Partners,Mid,Generalist
+TowerBrook Capital Partners,Mid,Generalist
+MidOcean Partners,Mid,Consumer
+Lone Star Funds,Large,Real Estate/Credit
+Roark Capital Group,Mid,Consumer
+KSL Capital Partners,Mid,Consumer
+Shamrock Capital,Mid,Consumer
+Arsenal Capital Partners,Mid,Healthcare
+Linden Capital Partners,Mid,Healthcare
 Welsh Carson Anderson & Stowe,Mid,Healthcare
+AEA Investors,Mid,Generalist
+Aquiline Capital Partners,Mid,Financial Services
+Arcline Investment Management,Mid,Industrials
+One Rock Capital Partners,Mid,Industrials
+SK Capital Partners,Mid,Industrials
+Stellex Capital Management,Mid,Industrials
+SVPGlobal,Mid,Credit
+Arena Investors,Mid,Credit
+Tailwind Capital,Mid,Generalist
+50T,Mid,Generalist
+A&M Capital,Mid,Generalist
+Access Holdings,Mid,Generalist
+ACON Investments,Mid,Generalist
+AE Industrial Partners,Mid,Industrials
+Altamont Capital Partners,Mid,Consumer
+Ampersand Capital Partners,Mid,Healthcare
+Amulet Capital Partners,Mid,Generalist
+Antarctica Capital,Mid,Technology
+Ara Partners,Mid,Industrials
+Arbor Investments,Mid,Consumer
+ArcLight Capital Partners,Mid,Energy
+Argonaut Private Equity,Mid,Generalist
+Atairos,Mid,Consumer
+Aurora Capital Partners,Mid,Generalist
+Avenir Growth Capital,Mid,Technology
+Avesi Partners,Mid,Generalist
+Avista Healthcare Partners,Mid,Healthcare
+Bain Capital Insurance,Mid,Financial Services
+Banneker Partners,Mid,Technology
+Bansk Group,Mid,Consumer
+Bertram Capital,Mid,Technology
+BharCap Partners,Mid,Technology
+Blue Road Capital,Mid,Generalist
+Blue Wolf Capital Partners,Mid,Industrials
+Bonaccord Capital Partners,Mid,Generalist
+Bow River Capital,Mid,Technology
+Brentwood Associates,Mid,Consumer
+Brighton Park Capital,Mid,Healthcare
+Brightstar Capital Partners,Mid,Generalist
+Brynwood Partners,Mid,Consumer
+Butterfly Equity,Mid,Consumer
+BV Investment Partners,Mid,Technology
+Calera Capital,Mid,Generalist
+Catterton Partners,Mid,Consumer
+CCMP Capital Advisors,Mid,Generalist
+CenterOak Partners,Mid,Generalist
+Centre Lane Partners,Mid,Credit
+Certares,Mid,Consumer
+Chicago Pacific Founders,Mid,Healthcare
+CIVC Partners,Mid,Technology
+Clearview Capital,Mid,Generalist
+Coalesce Capital,Small,Generalist
+Cogenuity Partners,Mid,Generalist
+Compass Diversified,Mid,Generalist
+Concentric Equity Partners,Mid,Technology
+Consonance Capital,Mid,Healthcare
+Constellation Wealth Capital,Mid,Generalist
+Constitution Capital Partners,Mid,Fund of Funds
+CORE Industrial Partners,Mid,Industrials
+Cormorant Asset Management,Mid,Healthcare
+Cornell Capital,Mid,Consumer
+Corsair Capital,Mid,Financial Services
+Cortec Group,Mid,Consumer
+Court Square,Mid,Generalist
+Cove Hill Partners,Mid,Consumer
+Cressey & Company,Mid,Healthcare
+Crestview Partners,Mid,Generalist
+Crosspoint Capital Partners,Mid,Technology
+Declaration Partners,Mid,Generalist
+DFW Capital Partners,Mid,Generalist
+Diversis Capital,Mid,Technology
+EagleTree Capital,Mid,Consumer
+Edison Partners,Mid,Technology
+EIV Capital,Mid,Energy
+Endeavour Capital,Mid,Generalist
+Enlightenment Capital,Mid,Technology
+Ethos Capital,Mid,Technology
+EW Healthcare Partners,Mid,Healthcare
+Excellere Partners,Mid,Healthcare
+Trinity Hunt Partners,Small,Generalist
+Gemspring Capital,Small,Generalist
+Gridiron Capital,Small,Generalist
+New State Capital Partners,Small,Generalist
+Pacific Lake Partners,Small,Generalist
+Palladium Equity Partners,Small,Generalist
+SkyKnight Capital,Small,Generalist
+Unity Partners,Small,Generalist
+Clearhaven Partners,Small,Technology
+BayPine,Mid,Technology
+Stride Consumer Partners,Small,Consumer
+Monomoy Capital Partners,Small,Industrials
+Tenex Capital Management,Small,Industrials
+HealtheEdge Investment Partners,Small,Healthcare
+HealthQuest Capital,Small,Healthcare
+1315 Capital,Small,Healthcare
+22C Capital,Small,Technology
+7RIDGE,Small,Technology
+AGR Partners,Small,Industrials
+AHP,Small,Healthcare
+Aldrich Capital Partners,Small,Technology
+Align Capital Partners,Small,Generalist
+Allied Industrial Partners,Small,Industrials
+Ally Bridge Group,Small,Healthcare
+Alta Park Capital,Small,Technology
+Amberjack Capital Partners,Small,Consumer
+American Pacific Group,Small,Generalist
+Andros Capital Partners,Small,Technology
+Angeles Equity Partners,Small,Industrials
+Apax Digital Growth,Small,Technology
+Argonne Capital Group,Small,Technology
+Argosy Private Equity,Small,Generalist
+Ariel Alternatives,Small,Generalist
+Arlon Group,Small,Consumer
+Ascend Partners,Small,Healthcare
+Aterian Investment Partners,Small,Generalist
+ATL Partners,Small,Industrials
+Atlantic Street Capital,Small,Generalist
+Atlas Merchant Capital,Small,Financial Services
+Avance Investment Management,Small,Generalist
+Avego Management,Small,Generalist
+B-FLEXION Life Sciences,Small,Healthcare
+Baird Capital,Small,Generalist
+Balmoral Funds,Small,Generalist
+Bayou City Energy,Small,Energy
+Bedford Funding Capital Management,Small,Generalist
+Bedford Ridge Capital,Small,Generalist
+Behrman Capital,Small,Generalist
+BlackRock Private Equity Partners,Small,Fund of Funds
+Blue Point Capital Partners,Small,Generalist
+Blue Sage Capital,Small,Generalist
+Blue Sea Capital,Small,Consumer
+Blue Star Innovation Partners,Small,Technology
+Blum Capital Partners,Small,Generalist
+Bow Wave Capital Management,Small,Technology
+BPOC,Small,Healthcare
+Bracket Capital,Small,Generalist
+Brazos Private Equity Partners,Small,Generalist
+Bregal Partners,Small,Generalist
+Brockway Moran & Partners,Small,Consumer
+Brookside Equity Partners,Small,Generalist
+Capitol Meridian Partners,Small,Technology
+CapStreet,Small,Technology
+Carousel Capital,Small,Generalist
+Carrick Capital Partners,Small,Technology
+Castle Creek Capital,Small,Financial Services
+Center Rock Capital Partners,Small,Industrials
+Centre Partners,Small,Consumer
+Ceres Partners,Small,Consumer
+Clarion Capital Partners,Small,Generalist
+Cloverlay,Small,Generalist
+CoastEdge Partners,Small,Generalist
+Cohesive Capital Partners,Small,Generalist
+Composition Capital,Small,Generalist
+Corbel Capital Partners,Small,Credit
+Cowen Sustainable Investments,Small,Generalist
+Crest Rock Partners,Small,Technology
+DC Capital Partners,Small,Technology
+Delta-v Capital,Small,Technology
+Diamond Castle Holdings,Small,Generalist
+Digital Alpha Advisors,Small,Technology
+Dominus Capital,Small,Generalist
+Dunes Point Capital,Small,Generalist
+Elevation Partners,Small,Technology
+Emerald Lake Capital Management,Small,Generalist
+Emerging Capital Partners,Small,Generalist
+Enhanced Healthcare Partners,Small,Healthcare
+Entrepreneurial Equity Partners,Small,Generalist
+EOC Partners Advisors,Small,Generalist
+Equity International,Small,Real Estate
+Fortress Investment Group,Large,Credit/Generalist
+Genstar Capital,Large,Generalist
+Golden Gate Capital,Large,Generalist
+GoldPoint Partners,Large,Fund of Funds
+Gryphon Investors,Large,Generalist
+HarbourVest Horizon,Large,Fund of Funds
+HPS Investment Partners,Large,Credit
+Invus Financial Advisors,Large,Consumer
+Irradiant Partners,Large,Real Assets
+K1 Investment Management,Large,Technology
+Kinderhook Industries,Large,Industrials
+Kohlberg & Company,Large,Generalist
+Kudu Investment Management,Large,Fund of Funds
+Levine Leichtman Capital Partners,Large,Credit
+Lexington Partners,Large,Fund of Funds
+Lindsay Goldberg,Large,Generalist
+LKCM Headwater Investments,Large,Generalist
+MSD Partners,Large,Generalist
+Nautic Partners,Large,Generalist
+NGP Energy Capital Management,Large,Energy
+NGP Energy Technology Partners,Large,Energy
+Falfurrias Management Partners,Mid,Generalist
+FFL Partners,Mid,Healthcare
+First Reserve,Mid,Energy
+Fisher Lynch Capital,Mid,Fund of Funds
+Five Elms Capital,Mid,Technology
+Flexpoint Ford,Mid,Financial Services
+Flexstone Partners,Mid,Fund of Funds
+Formation Capital,Mid,Healthcare
+Frazier Healthcare Partners,Mid,Healthcare
+Freeman Spogli,Mid,Consumer
+Frontenac Company,Mid,Generalist
+FTV Capital,Mid,Technology
+Further Global Capital Management,Mid,Financial Services
+Gallatin Point Capital,Mid,Credit
+Gamut Capital Management,Mid,Generalist
+Garnett Station Partners,Mid,Consumer
+Gauge Capital,Mid,Generalist
+GEF Capital Partners,Mid,Generalist
+GenNx360 Capital Partners,Mid,Generalist
+Gerchen Capital Partners,Small,Credit
+GFI Energy Group,Mid,Energy
+GHK Capital Partners,Mid,Healthcare
+Glade Brook Capital Partners,Mid,Technology
+Global Emerging Markets,Mid,Generalist
+Graham Partners,Mid,Industrials
+Graycliff Partners,Mid,Generalist
+Greenbelt Capital Management,Mid,Generalist
+Greenbriar Equity Group,Mid,Industrials
+GreyLion,Mid,Technology
+H.M. Payson,Mid,Generalist
+Harbert Management,Mid,Generalist
+HarbourView Equity Partners,Mid,Consumer
+Haveli Investments,Mid,Technology
+HCRx,Mid,Healthcare
+Hidden Harbor Capital Partners,Mid,Generalist
+Hildred Capital Management,Mid,Healthcare
+Hill Path Capital,Mid,Consumer
+Hunter Point Capital,Mid,Generalist
+Incline Equity Partners,Mid,Technology
+Indigo Partners,Mid,Industrials
+InTandem Capital Partners,Mid,Healthcare
+Integrum,Mid,Generalist
+J.C. Flowers & Co.,Mid,Financial Services
+J.F. Lehman & Company,Mid,Industrials
+JLL Partners,Mid,Healthcare
+JMI Equity,Mid,Technology
+Juniper Capital Advisors,Mid,Generalist
+Kimmeridge,Mid,Energy
+Kingswood Capital Management,Mid,Generalist
+Kline Hill Partners,Mid,Fund of Funds
+Knox Lane,Mid,Consumer
+KRG Capital Partners,Mid,Generalist
+L Squared Capital Partners,Small,Technology
+Lead Edge Capital,Mid,Technology
+Lee Equity Partners,Mid,Generalist
+Leeds Equity Partners,Mid,Generalist
+Level Equity,Mid,Technology
+Liberty Strategic Capital,Mid,Technology
+Lieef,Mid,Generalist
+LightBay Capital,Mid,Consumer
+Lightyear Capital,Mid,Financial Services
+Littlejohn & Co.,Mid,Generalist
+LL Funds,Mid,Credit
+LLR Partners,Mid,Technology
+Lovell Minnick Partners,Mid,Financial Services
+Luminate Capital Partners,Mid,Technology
+LYFE Capital,Mid,Healthcare
+M-One Capital,Mid,Generalist
+Madison Capital Partners,Mid,Generalist
+Main Post Partners,Mid,Technology
+Main Street Advisors,Mid,Generalist
+Mainsail Partners,Mid,Technology
+Marlin Equity Partners,Mid,Technology
+Martis Capital Management,Mid,Healthcare
+Medley Partners,Mid,Healthcare
+MiddleGround Capital,Mid,Industrials
+Mill Point Capital,Mid,Industrials
+Morehead Capital,Mid,Generalist
+Motive Partners,Mid,Technology
+MSouth Equity Partners,Mid,Generalist
+Msr Capital Partners,Mid,Generalist
+Neos Partners,Mid,Generalist
+Newlight Partners,Mid,Generalist
+NewSpring Capital,Mid,Generalist
+NexPhase Capital,Mid,Generalist
+Nexus Capital Management,Mid,Generalist
+Norwest Equity Partners,Mid,Generalist
+Finback Investment Partners,Small,Technology
+Five Points Capital,Small,Generalist
+Ford Financial Fund,Small,Financial Services
+ForgeLight,Small,Technology
+Formentera Partners,Small,Generalist
+Fox Paine,Small,Generalist
+Frontier Growth,Small,Technology
+Gainline Capital Partners,Small,Generalist
+Gallant Capital,Small,Generalist
+GEC,Small,Generalist
+Goanna Capital,Small,Generalist
+Godspeed Capital,Small,Technology
+Godwin Capital Group,Small,Generalist
+Granite Partners,Small,Generalist
+Great Point Partners,Small,Healthcare
+Growth Catalyst Partners,Small,Technology
+GrowthCurve Capital,Small,Technology
+Guidepost Growth Equity,Small,Technology
+HCI Equity Partners,Small,Generalist
+Heartland Industrial Partners,Small,Industrials
+Heartwood Partners,Small,Generalist
+Heritage Group (US),Small,Industrials
+Housatonic Partners,Small,Technology
+Huron Capital,Small,Generalist
+Industrial Growth Partners,Small,Industrials
+Industrial Opportunity Partners,Small,Industrials
+Insight Equity,Small,Industrials
+Inverness Graham,Small,Technology
+Invictus Growth Partners,Small,Technology
+Invision Capital,Small,Generalist
+Ironview Capital Management,Small,Generalist
+Juggernaut Capital Partners,Small,Generalist
+Kainos Capital,Small,Consumer
+KarpReilly,Small,Consumer
+Keystone Capital Management,Small,Generalist
+Kian Capital,Small,Generalist
+KIC Ventures,Small,Technology
+Kosmos Management,Small,Generalist
+Lake Street Capital Partners,Small,Generalist
+LFM Capital,Small,Industrials
+Linse Capital,Small,Technology
+Long Path Partners,Small,Generalist
+Long Ridge Equity Partners,Small,Technology
+Lone View Capital,Small,Technology
+LongRange Capital,Small,Technology
+Lorient Capital Management,Small,Generalist
+M/C Partners,Small,Technology
+Madison River Capital,Small,Technology
+Mason Wells,Small,Generalist
+May River Capital,Small,Generalist
+Mercato Partners,Small,Technology
+Merit Capital Partners,Small,Generalist
+Monogram Capital Partners,Small,Consumer
+Morgan Stanley Expansion Capital,Small,Technology
+Mountain Capital Management,Small,Generalist
+Mountaingate Capital,Small,Generalist
+MPE Partners,Small,Generalist
+Muller & Monroe Asset Management,Small,Generalist
+Multiplier Capital,Small,Technology
+MVM Partners,Small,Healthcare
+NCH Capital,Small,Real Estate
+Nexa Equity,Small,Generalist
+NMS Capital,Small,Generalist
+Nonantum Capital Partners,Small,Generalist
+North Castle Partners,Small,Consumer
+Northlane Capital Partners,Small,Technology
+NovaQuest Capital Management,Small,Healthcare
+HGGC,Mid,Technology
+Sixth Street Partners,Mega,Credit
+Olympus Partners,Large,Generalist
+One Equity Partners,Large,Generalist
+OrbiMed,Large,Healthcare
+Ottawa Avenue Private Capital,Large,Generalist
+Pacific Corporate Group,Large,Fund of Funds
+Parthenon Capital Partners,Large,Technology
+Partners Enterprise Capital,Large,Generalist
+Patient Square Capital,Large,Healthcare
+Providence Equity Partners,Large,Consumer
+PSG,Large,Technology
+Quantum Capital Group,Large,Energy
+RCP Advisors,Large,Fund of Funds
+RedBird Capital Partners,Large,Consumer
+Reverence Capital Partners,Large,Financial Services
+Rhône Group,Large,Generalist
+Riverstone Holdings,Large,Energy
+Searchlight,Large,Technology
+Shore Capital Partners,Large,Healthcare
+Siguler Guff,Large,Fund of Funds
+Stephens,Large,Generalist
+STG Partners,Large,Technology
+Stone Point Capital,Large,Financial Services
+Strategic Value Partners,Large,Credit
+Summit Partners,Large,Technology
+Sycamore Partners,Large,Consumer
+Sycamore Ventures,Large,Technology
+TA Associates Management,Large,Technology
+TCV,Large,Technology
+The Energy & Minerals Group,Large,Energy
+The Invus Group,Large,Consumer
+The Riverside Company,Large,Generalist
+THREE FIFTY EIGHT INVESTMENT,Large,Generalist
+TJC,Large,Generalist
+Valor Equity Partners,Large,Technology
+Vistria Group,Large,Healthcare
+Wafra,Large,Generalist
+Ocean Avenue Capital Partners,Mid,Generalist
+OceanSound Partners,Mid,Technology
+Odyssey Investment Partners,Mid,Generalist
+One Madison Group,Mid,Generalist
+Pacific Avenue Capital Partners,Mid,Generalist
+Pacific Private Fund Advisors,Mid,Fund of Funds
+Paine Schwartz Partners,Mid,Consumer
+Pamlico Capital,Mid,Technology
+Peak Rock Capital,Mid,Generalist
+PeakSpan Capital,Mid,Technology
+Percheron Capital,Mid,Generalist
+Peterson Partners,Mid,Generalist
+PFM Health Sciences,Mid,Healthcare
+Pine Brook Partners,Mid,Energy
+Point Olema Capital Partners,Mid,Generalist
+PPC Enterprises,Mid,Generalist
+Pritzker Private Capital,Mid,Industrials
+Private Markets Capital,Mid,Fund of Funds
+Prysm Capital,Mid,Technology
+QHP Capital,Mid,Healthcare
+Quad-C Management,Mid,Generalist
+Quid,Mid,Technology
+Recognize Partners,Mid,Technology
+Redmile Group,Mid,Healthcare
+Renovus Capital Partners,Mid,Technology
+Resurgens Technology Partners,Mid,Technology
+Revelstoke Capital Partners,Mid,Healthcare
+Ridgemont Equity Partners,Mid,Generalist
+Ridgewood Energy,Mid,Energy
+Riverwood Capital,Mid,Technology
+RoundTable Healthcare Partners,Mid,Healthcare
+Rubicon Founders,Mid,Technology
+Rubicon Technology Partners,Mid,Technology
+Sagard Private Equity Solutions,Mid,Generalist
+Sageview Capital,Mid,Technology
+SCF Partners,Mid,Energy
+Seidler Equity Partners,Mid,Generalist
+Sentinel Capital Partners,Mid,Generalist
+Sightway Capital,Mid,Technology
+Silversmith Capital Partners,Mid,Technology
+Smash Capital,Mid,Technology
+Solamere Capital,Mid,Fund of Funds
+Soleus Capital,Mid,Healthcare
+Spectrum Equity,Mid,Technology
+Spinnaker Trust,Mid,Generalist
+Starr Private Equity Partners,Mid,Financial Services
+Stripes,Mid,Technology
+Sumeru Equity Partners,Mid,Technology
+Sunstone Partners,Mid,Technology
+Susquehanna Growth Equity,Mid,Technology
+SV Health Investors,Mid,Healthcare
+Sverica Capital Management,Mid,Technology
+Tailwater Capital,Mid,Energy
+The Cathay Funds,Mid,Generalist
+The Chernin Group,Mid,Consumer
+The Cynosure Group,Mid,Generalist
+The Cypress Group,Mid,Generalist
+The Edgewater Fund,Mid,Industrials
+The Raine Group,Mid,Consumer
+The Sterling Group,Mid,Industrials
+Thompson Street Capital Partners,Mid,Technology
+Tinicum,Mid,Generalist
+TPG Newbridge,Mid,Generalist
+Trilantic North America,Mid,Generalist
+Trive Capital,Mid,Generalist
+Trivest Partners,Mid,Generalist
+TruArc Partners,Mid,Generalist
+True Wind Capital Management,Mid,Technology
+Turn/River Capital,Mid,Technology
+TZP Group,Mid,Technology
+Vance Street Capital,Mid,Industrials
+Vector Capital,Mid,Technology
+Vestar Capital Partners,Mid,Consumer
+Warren Equity Partners,Mid,Industrials
+Water Street Healthcare Partners,Mid,Healthcare
+Waud Capital Partners,Mid,Healthcare
+Webster Equity Partners,Mid,Healthcare
+Wesray Capital,Mid,Generalist
+WestCap,Mid,Technology
+Weston Presidio,Mid,Consumer
+WestView Capital Partners,Mid,Technology
+Wind Point Partners,Mid,Generalist
+Windjammer Capital,Mid,Generalist
+WindRose Health Investors,Mid,Healthcare
+WP Global Partners,Mid,Generalist
+Wynnchurch Capital,Mid,Industrials
+Yellow Wood Partners,Mid,Consumer
+ZCG,Mid,Generalist
+ZMC,Mid,Consumer
+O2 Investment Partners,Small,Generalist
+OpenGate Capital,Small,Industrials
+Orangewood Partners,Small,Generalist
+Orkila Capital,Small,Consumer
+P2 Capital Partners,Small,Generalist
+Paceline Equity Partners,Small,Generalist
+Parabellum Capital,Small,Generalist
+Patriot Financial Partners,Small,Financial Services
+Pelican Energy Partners,Small,Energy
+Perry Creek Capital,Small,Generalist
+Pharos Capital Group,Small,Healthcare
+Platte River Equity,Small,Technology
+Plexus Capital,Small,Generalist
+Primus Capital,Small,Healthcare
+Princeton Equity Group,Small,Generalist
+Ripplewood Advisors,Small,Generalist
+RLH Equity Partners,Small,Generalist
+Rockbridge Growth Equity,Small,Technology
+Sagewind Capital,Small,Technology
+Sandton Capital Partners,Small,Generalist
+Satori Capital,Small,Generalist
+Saw Mill Capital,Small,Generalist
+SB Capital Management,Small,Generalist
+Sentinel Dome Partners,Small,Generalist
+SER Capital Partners,Small,Energy
+Serve Capital Partners,Small,Generalist
+Sheridan Capital Partners,Small,Healthcare
+ShoreView Industries,Small,Generalist
+Silver Lake Waterman,Small,Technology
+Silver Oak Services Partners,Small,Generalist
+Sole Source Capital,Small,Generalist
+Sorenson Capital,Small,Technology
+Southfield Capital,Small,Generalist
+Sovereign's Capital,Small,Generalist
+Spell Capital Partners,Small,Generalist
+Spring Mountain Capital,Small,Generalist
+Stagwell,Small,Consumer
+Sterling Investment Partners,Small,Generalist
+Stonehenge Partners,Small,Generalist
+Strattam Capital,Small,Technology
+Swander Pace Capital,Small,Consumer
+Ten Coves Capital,Small,Technology
+Tensile Capital Management,Small,Technology
+The Beekman Group,Small,Healthcare
+The Halifax Group,Small,Generalist
+The Yucaipa Companies,Small,Consumer
+Tower Arch Capital,Small,Generalist
+Transom Capital Group,Small,Generalist
+Trimaran Capital Partners,Small,Generalist
+Tritium Partners,Small,Technology
+Truelink Capital,Small,Generalist
+TT Capital Partners,Small,Generalist
+Turning Rock Partners,Small,Credit
+Tyree & D'Angelo Partners,Small,Generalist
+Updata Partners,Small,Technology
+Valeas Capital Partners,Small,Generalist
+Varsity Healthcare Partners,Small,Healthcare
+Vesey Street Capital Partners,Small,Healthcare
+Virgo Investment Group,Small,Technology
+Volition Capital,Small,Technology
+Weatherford Capital,Small,Generalist
+Whistler Capital Partners,Small,Generalist
+White Deer Energy,Small,Energy
+WM Partners,Small,Consumer
+ZBS Partners,Small,Generalist
+Zenyth Partners,Small,Healthcare
+ZS Fund,Small,Generalist
