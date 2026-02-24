@@ -45,9 +45,9 @@ def build_record(
         tag for tag in industry_map.values() if tag is not None
     ))
 
-    # functional_expertise: title from the most recent WorkEntry (highest index with title)
+    # functional_expertise: title from the most recent WorkEntry (work_history is newest-first)
     functional_expertise = None
-    for entry in reversed(work_history):
+    for entry in work_history:
         if getattr(entry, "title", ""):
             functional_expertise = entry.title
             break

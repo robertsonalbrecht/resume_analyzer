@@ -55,4 +55,10 @@ def load_resume(file_path: str) -> str:
     if not text or not text.strip():
         raise IngestionError(f"No text extracted from {file_path!r}.")
 
+    if len(text.strip()) < 200:
+        raise IngestionError(
+            f"Extracted text from {file_path!r} is too short ({len(text.strip())} chars). "
+            "This is likely a scanned or image-only PDF."
+        )
+
     return text

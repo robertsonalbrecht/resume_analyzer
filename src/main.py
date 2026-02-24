@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 from src.ingestion import load_resume, IngestionError
-from src.entity_extractor import extract_entities
+from src.llm_extractor import LLMExtractor
 from src.industry_classifier import IndustryClassifier
 from src.pe_detector import PEDetector
 from src.experience_calculator import calculate_experience
@@ -73,13 +73,13 @@ def find_resumes(input_dir: str):
     return files
 
 
-def process_file(file_path: str, classifier, detector, synthesizer) -> dict:
+def process_file(file_path: str, classifier, detector, synthesizer, extractor) -> dict:
     """Process a single resume file through the full pipeline."""
     # 1. Ingest
     raw_text = load_resume(file_path)
 
     # 2. Extract entities
-    entities = extract_entities(raw_text)
+    entities = extractor.extract(raw_text)
 
     # 3. Classify industries
     company_names = [
@@ -144,6 +144,7 @@ def main(argv=None):
     classifier = IndustryClassifier(COMPANY_LOOKUP_PATH)
     detector = PEDetector(PE_FIRMS_PATH)
     synthesizer = AISynthesizer()
+    extractor = LLMExtractor()
 
     records = []
     errors = []
@@ -153,7 +154,7 @@ def main(argv=None):
         if args.verbose:
             print(f"  Processing: {filename}")
         try:
-            record = process_file(file_path, classifier, detector, synthesizer)
+            record = process_file(file_path, classifier, detector, synthesizer, extractor)
             records.append(record)
         except IngestionError as e:
             msg = f"Ingestion failed: {e}"
