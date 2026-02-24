@@ -14,6 +14,7 @@ from src.experience_calculator import calculate_experience
 from src.ai_synthesizer import AISynthesizer
 from src.completeness_scorer import score_completeness
 from src.output_module import build_record, compile_results
+from src.airtable_exporter import push_records
 
 _ROOT = Path(__file__).parent
 COMPANY_LOOKUP_PATH = str(_ROOT / "data" / "company_industry_lookup.csv")
@@ -150,6 +151,8 @@ def main():
                 try:
                     record = _process_file(tmp_path, classifier, detector, synthesizer, extractor)
                     record["source_file"] = uploaded_file.name
+                    record["_file_bytes"] = Path(tmp_path).read_bytes()
+                    record["_file_name"] = uploaded_file.name
                     st.session_state.records.append(record)
                 except IngestionError as e:
                     st.session_state.errors.append(
@@ -249,15 +252,30 @@ def main():
                 st.markdown("**Work History**")
                 _render_work_history(r.get("_work_history") or [])
 
-        # Download CSV
+        # Download CSV + Send to Airtable
         st.markdown("---")
+        dl_col, at_col = st.columns([1, 1])
+
         csv_bytes = compile_results(records).to_csv(index=False).encode("utf-8-sig")
-        st.download_button(
+        dl_col.download_button(
             label="⬇ Download CSV",
             data=csv_bytes,
             file_name="resume_results.csv",
             mime="text/csv",
         )
+
+        if at_col.button("☁ Send to Airtable", key="airtable_btn"):
+            with st.spinner(f"Sending {len(records)} record(s) to Airtable..."):
+                try:
+                    created, skipped, at_errors = push_records(records)
+                    if created:
+                        st.success(f"✓ {created} record(s) created in Airtable.")
+                    if skipped:
+                        st.info(f"⏭ {skipped} duplicate(s) skipped (email already exists).")
+                    for err in at_errors:
+                        st.error(err)
+                except ValueError as e:
+                    st.error(str(e))
 
     # --- Error display ---
     if st.session_state.errors:
