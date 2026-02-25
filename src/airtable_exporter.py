@@ -1,5 +1,6 @@
 """Airtable export module — pushes parsed resume records to the Contractors table."""
 
+import base64
 import os
 from typing import Dict, List, Optional, Tuple
 
@@ -80,38 +81,62 @@ def _find_existing_by_email(email: str) -> Tuple[Optional[str], Optional[str]]:
     return None, None
 
 
+_RESUME_FIELD_ID: Optional[str] = None
+
+
+def _get_resume_field_id() -> str:
+    """Look up the field ID for 'Resume/CV', cached after first call."""
+    global _RESUME_FIELD_ID
+    if _RESUME_FIELD_ID:
+        return _RESUME_FIELD_ID
+    meta_url = f"https://api.airtable.com/v0/meta/bases/{AIRTABLE_BASE_ID}/tables"
+    headers = {"Authorization": f"Bearer {AIRTABLE_API_TOKEN}"}
+    try:
+        resp = requests.get(meta_url, headers=headers, timeout=15)
+        if resp.ok:
+            for table in resp.json().get("tables", []):
+                if table.get("id") == AIRTABLE_TABLE_ID:
+                    for field in table.get("fields", []):
+                        if field.get("name") == "Resume/CV":
+                            _RESUME_FIELD_ID = field["id"]
+                            return _RESUME_FIELD_ID
+    except Exception:
+        pass
+    _RESUME_FIELD_ID = "fldaucHXY6m7RRotQ"  # fallback to known ID
+    return _RESUME_FIELD_ID
+
+
 def _upload_attachment(record_id: str, file_bytes: bytes, filename: str) -> List[str]:
     """Upload a file to the Resume/CV field of an existing Airtable record."""
     suffix = os.path.splitext(filename)[1].lower()
     content_type = MIME_TYPES.get(suffix, "application/octet-stream")
 
-    url = f"https://content.airtable.com/v0/{AIRTABLE_BASE_ID}/{record_id}/uploadAttachment"
+    field_id = _get_resume_field_id()
+    url = f"https://content.airtable.com/v0/{AIRTABLE_BASE_ID}/{record_id}/{field_id}/uploadAttachment"
     headers = {"Authorization": f"Bearer {AIRTABLE_API_TOKEN}"}
+    payload = {
+        "contentType": content_type,
+        "filename": os.path.basename(filename),
+        "file": base64.encodebytes(file_bytes).decode("utf-8"),
+    }
 
     try:
-        resp = requests.post(
-            url,
-            headers=headers,
-            files={
-                "file": (filename, file_bytes, content_type),
-                "filename": (None, filename),
-                "contentType": (None, content_type),
-                "field": (None, "Resume/CV"),
-            },
-            timeout=60,
-        )
+        resp = requests.post(url, headers=headers, json=payload, timeout=60)
     except requests.RequestException as e:
         return [f"File upload failed for '{filename}': {e}"]
+
+    if resp.ok:
+        return []
 
     try:
         body = resp.json()
     except Exception:
         body = resp.text[:300]
-
-    if resp.ok:
-        return [f"DEBUG upload response ({resp.status_code}): {body}"]
-
-    detail = body.get("error", {}).get("message", body) if isinstance(body, dict) else body
+    if isinstance(body, dict):
+        err_obj = body.get("error", {})
+        detail = err_obj.get("message", body) if isinstance(err_obj, dict) else err_obj
+    else:
+        detail = body
     return [f"File upload failed for '{filename}': HTTP {resp.status_code} — {detail}"]
 
 
